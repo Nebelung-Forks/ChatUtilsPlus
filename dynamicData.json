@@ -1,0 +1,72 @@
+{
+	"idBans": [
+		[
+			"demoID",
+			"demo stuff lol"
+		],
+		[
+			"236348",
+			"No reason specified"
+		],
+		[
+			"606039",
+			"No reason specified"
+		],
+		[
+			"654718",
+			"No reason specified"
+		],
+		[
+			"191095",
+			"No reason specified"
+		],
+		[
+			"283831",
+			"No reason specified"
+		],
+		[
+			"111251",
+			"No reason specified"
+		],
+		[
+			"192725",
+			"No reason specified"
+		],
+		[
+			"164519",
+			"No reason specified"
+		]
+	],
+	"ipBans": [
+		[
+			"127.0.0.57",
+			"No reason specified"
+		],
+		[
+			"35.191.9.209",
+			"No reason specified"
+		],
+		[
+			"35.191.12.193",
+			"No reason specified"
+		]
+	],
+	"vpnIsps": [
+		"DigitalOcean",
+		"Digital Energy",
+		"Dedipath"
+	],
+	"channel": "826842607060779008",
+	"webhooks": [
+		"https://discord.com/api/webhooks/829410257099948092/59mBcPMNx2IPaOp4n8S9TfJsTDIuZNOLx2O4MBRk2RDUHioMZCAFDdqFRHB596PMqez4",
+		"https://discord.com/api/webhooks/829410257478090856/Sz11ojD9KLgNqA44LHU9O1FNPqfP9Uouc3wUszVoq4UhyWmPKhf-ktVX3BkNlZpyXA31",
+		"https://discord.com/api/webhooks/829410258404245554/ZvcK5f7gQ35i4z1-D-Ow8QblaWoq9AIGtN-5KdOhzrLVq5kIw4x_1I54XlxAjHfBG_Jo"
+	],
+	"logging": [
+		true,
+		"826849521626906655"
+	],
+	"filters": [
+		"nigg"
+	]
+}
