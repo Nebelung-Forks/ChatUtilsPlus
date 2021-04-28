@@ -5,7 +5,8 @@ const fs=require('fs'),
 
 try{
 	var config=JSON.parse(fs.readFileSync('config.json','utf8'));
-	if(config.token.match(/\s/)){ // check for whitespace
+  var token = process.env.TOKEN;
+	if(token.match(/\s/)){ // check for whitespace
 		console.log('Error:'.black.bgRed, ' Your bot token contains an invalid whitespace! Please check if you followed the setup process correctly.');
 		process.exit(0);
 	}else if(config['contactEmail']==='insertContact@domain.tld')console.log('Warning:'.black.bgBrightYellow, ' Your contact email has not been changed, if this was intentional then ignore.');

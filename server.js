@@ -176,7 +176,7 @@ socketAntiSpam = new sas({
 	banning:true,
 	io:io
 });
-  bot.login(config.token);
+  bot.login(process.env.TOKEN);
 app.get('/stats',(req,res,next)=>{
 	if(dynamicData == undefined || dynamicData.ipBans == undefined || dynamicData.idBans == undefined)return res.send('Not ready yet!');
 	
